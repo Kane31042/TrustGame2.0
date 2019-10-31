@@ -30,8 +30,6 @@ public class Play {
         while (i<=times){
             a.time=i;
             b.time=i;
-            System.out.println("time is "+b.time);
-            System.out.println("deceive is "+b.deceive);
             System.out.println("开始第"+i+"回合");
             a.play();
             b.play();
